@@ -1,0 +1,18 @@
+{
+    "rootAPI": "/api/v1/",
+    "port": 8080,
+    "db" : {
+        "host": "localhost",
+        "database": "nodejsExercice",
+        "user": "root",
+        "password": ""   
+    },
+    "errors" : {
+        "wrongID" : "Wrong id",
+        "wrongMaxValue": "Wrong max value",
+        "noNameValue": "No name value",
+        "nameAlreadyTaken": "Name already taken",
+        "sameName": "Same name",
+        "idDoesntExist": "This ID does not exist"
+    }
+}
